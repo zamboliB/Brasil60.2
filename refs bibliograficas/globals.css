@@ -1,0 +1,79 @@
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Clash Display Variable-Regular";
+  src: url(../ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Regular.woff2)
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Clash Display Variable-Bold";
+  src: url(../ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Bold.woff2)
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Satoshi Variable-Medium";
+  src: url(../Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Variable.woff2)
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Satoshi-Medium";
+  src: url(../Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Medium.woff2)
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Clash Display Variable-Semibold";
+  src: url(../ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Semibold.woff2)
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Clash Display Variable-Medium";
+  src: url(../ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Medium.woff2)
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Satoshi Variable-Regular";
+  src: url(../Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Regular.woff2)
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Satoshi Variable-Black";
+  src: url(../Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Black.woff2)
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Satoshi Variable-Bold";
+  src: url(../Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Bold.woff2)
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Satoshi Variable-Light";
+  src: url(../Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Light.woff2)
+    format("truetype");
+}
